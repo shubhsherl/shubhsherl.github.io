@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://home.iitk.ac.in/~singhshu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://home.iitk.ac.in/~singhshu/" rel="alternate" type="text/html" /><updated>2018-10-06T20:01:47+05:30</updated><id>https://home.iitk.ac.in/~singhshu/</id><title type="html">shubhsherl</title><subtitle>I'm a sophomore at IIT Kanpur.</subtitle><entry><title type="html">Linux From the bunch of Code</title><link href="https://home.iitk.ac.in/~singhshu/linux-from-scratch" rel="alternate" type="text/html" title="Linux From the bunch of Code" /><published>2018-09-26T12:36:45+05:30</published><updated>2018-09-26T12:36:45+05:30</updated><id>https://home.iitk.ac.in/~singhshu/linux-from-scratch</id><content type="html" xml:base="https://home.iitk.ac.in/~singhshu/linux-from-scratch">&lt;p&gt;Learning new things to set yourself apart from your competitors and reaching out new opportunities or freelance jobs it’s the base to survive on the local and global market job.&lt;/p&gt;
+
+&lt;p&gt;Last month, while searching for some interesting and fancy stuffs to configure my Arch Linux, I came across a project &lt;strong&gt;“Linux from Scratch”&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Linux From Scratch (LFS) is a project that provides you with step-by-step instructions for building your own customized Linux system entirely from source. Building LFS teaches you about all that makes Linux tick, how things work together and depend on each other. And most importantly, how to customize it to your own tastes and needs.
+LFS is updated twice in a year, as of now the latest release is &lt;a href=&quot;http://www.linuxfromscratch.org/lfs/view/8.3/index.html&quot;&gt;Version 8.3&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This article will &lt;del&gt;not&lt;/del&gt; teach you how to do LFS, the official documentation is maintained well and is beginner friendly, but to motivate you towards it and share my experience with you, and the difficulties, mistakes which I have done during my project.&lt;/p&gt;
+
+&lt;h3 id=&quot;issues-and-solution&quot;&gt;Issues and Solution&lt;/h3&gt;
+
+&lt;p&gt;Here I’m sharing some important links and issues which I faced.&lt;/p&gt;
+
+&lt;p&gt;* &lt;strong&gt;Never skip&lt;/strong&gt; any step while doing the project, believe it is not working, even if doesn’t give any error. I guess you like to stop and resolve current issue, rather then coming back form next chapter. ;)&lt;/p&gt;
+
+&lt;p&gt;* Try to do the stuffs in one go, atleast till chapter 5.&lt;/p&gt;
+
+&lt;p&gt;* &lt;strong&gt;Never&lt;/strong&gt; forget chrooting in &lt;a href=&quot;http://www.linuxfromscratch.org/lfs/view/8.3/chapter06/chroot.html&quot;&gt;Chapter 6.4&lt;/a&gt; everytime you resume work after it.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;I f**cked up my Arch twice because of this (&amp;gt;_&amp;lt;)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;* If you do some silly mistakes, look up &lt;a href=&quot;http://www.linuxfromscratch.org/lfs/view/stable/chapter02/stages.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;* Chapter 6 &lt;a href=&quot;http://www.linuxfromscratch.org/lfs/view/stable/chapter06/glibc.html&quot;&gt;Glib&lt;/a&gt; ERROR:&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;error   missing __attribute__ ((constructor)) support?&lt;/code&gt; 
+&lt;a href=&quot;http://lists.linuxfromscratch.org/pipermail/lfs-dev/2011-August/064955.html&quot;&gt;Solution&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;* Chapter 6.21 &lt;a href=&quot;http://www.linuxfromscratch.org/lfs/view/8.3/chapter06/gcc.html&quot;&gt;GCC&lt;/a&gt; ERROR:&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;[Requesting program interpreter: /tools/lib64/ld-linux-x86-64.so.2]&lt;/code&gt; 
+Instead of &lt;code class=&quot;highlighter-rouge&quot;&gt;[Requesting program interpreter: /lib64/ld-linux-x86-64.so.2]&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;No need to do Chap 5 again, here is the &lt;a href=&quot;https://stackoverflow.com/a/48289145/9050028&quot;&gt;hack&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;* Chapter 6.40 &lt;a href=&quot;http://www.linuxfromscratch.org/lfs/view/8.3/chapter06/perl.html&quot;&gt;Perl&lt;/a&gt; compliation error: &lt;code class=&quot;highlighter-rouge&quot;&gt;recompile with -fPIC&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Try &lt;a href=&quot;https://stackoverflow.com/a/43423168/9050028&quot;&gt;this&lt;/a&gt; or remake &lt;a href=&quot;http://www.linuxfromscratch.org/lfs/view/stable/chapter06/bzip2.html&quot;&gt;Bip2&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-next-&quot;&gt;What Next ?&lt;/h3&gt;
+
+&lt;p&gt;Beyond Linux From Scratch(&lt;a href=&quot;http://www.linuxfromscratch.org/blfs&quot;&gt;BLFS&lt;/a&gt;)!!!&lt;/p&gt;</content><author><name></name></author><summary type="html">Learning new things to set yourself apart from your competitors and reaching out new opportunities or...</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://home.iitk.ac.in/~singhshu/assets/img/xcode-swift-catsyears.jpg" /></entry><entry><title type="html">How to Install Arch Linux</title><link href="https://home.iitk.ac.in/~singhshu/how-install-arch" rel="alternate" type="text/html" title="How to Install Arch Linux" /><published>2018-07-19T03:36:45+05:30</published><updated>2018-07-19T03:36:45+05:30</updated><id>https://home.iitk.ac.in/~singhshu/how-install-arch</id><content type="html" xml:base="https://home.iitk.ac.in/~singhshu/how-install-arch">&lt;p&gt;&lt;strong&gt;Arch Linux&lt;/strong&gt; is a x86-64 general-purpose Linux distribution which has been popular among the DIY enthusiasts and hardcore Linux users. The default installation covers only a minimal base system and expects the end user to configure and use it. Based on the &lt;strong&gt;KISS – Keep It Simple, Stupid!&lt;/strong&gt; principle, Arch Linux focus on elegance, code correctness, minimalist system and simplicity.&lt;/p&gt;
+
+&lt;p&gt;I’m using Arch Linux right now, I’ve configured it in a way I like, and for my use. The official installation guide is available &lt;a href=&quot;https://wiki.archlinux.org/index.php/installation_guide&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;minimum-requirement&quot;&gt;Minimum Requirement&lt;/h3&gt;
+
+&lt;p&gt;* A x86_64 (i.e. 64 bit) compatible machine.&lt;/p&gt;
+
+&lt;p&gt;* Minimum 512 MB of RAM (recommended 2 GB).&lt;/p&gt;
+
+&lt;p&gt;* At least 1 GB of free disk space (recommended 20 GB for basic usage).&lt;/p&gt;
+
+&lt;p&gt;* An active internet connection.&lt;/p&gt;
+
+&lt;p&gt;* A USB drive with minimum 2 GB of storage capacity.&lt;/p&gt;
+
+&lt;h3 id=&quot;pre-installation&quot;&gt;Pre-Installation&lt;/h3&gt;
+
+&lt;h6 id=&quot;1-download-the-iso&quot;&gt;1. Download the ISO&lt;/h6&gt;
+&lt;p&gt;You can download the ISO from the &lt;a href=&quot;https://www.archlinux.org/download/&quot;&gt;official website&lt;/a&gt;. Arch Linux requires a x86_64 (i.e. 64 bit) compatible machine with a minimum of 512 MB RAM and 800 MB disk space for a minimal installation. However, it is recommended to have 2 GB of RAM and at least 20 GB of storage for a GUI to work without hassle.&lt;/p&gt;
+
+&lt;h6 id=&quot;2-create-a-live-usb-of-arch-linux&quot;&gt;2. Create a live USB of Arch Linux&lt;/h6&gt;
+&lt;p&gt;We will have to create a live USB of Arch Linux from the ISO you just downloaded.&lt;/p&gt;
+
+&lt;p&gt;If you are on Linux, you can use &lt;a href=&quot;https://unix.stackexchange.com/a/278193/297599&quot;&gt;dd command&lt;/a&gt; to create a live USB.&lt;/p&gt;
+
+&lt;p&gt;On Windows, there are several tools, like &lt;a href=&quot;https://rufus.akeo.ie/?locale&quot;&gt;Rufus&lt;/a&gt;, to create a live USB.&lt;/p&gt;
+
+&lt;h6 id=&quot;3-boot-from-the-live-usb&quot;&gt;3. Boot from the live USB&lt;/h6&gt;
+&lt;p&gt;Plugin your USB and boot your system. While booting keep pressing F12, F10 or F2 (dependinging upon your system) to go into boot settings. In here, select to boot from USB or removable disk.&lt;/p&gt;
+
+&lt;p&gt;Once you select that, you should see an option like this:
+&lt;img src=&quot;/assets/img/arch.jpg&quot; alt=&quot;arch&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; If your system has both Intel and Nvidia GPU, you should blacklist nouveau.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;You can blacklist it, by pressing &lt;code class=&quot;highlighter-rouge&quot;&gt;e&lt;/code&gt; in above step and type-
+&lt;code class=&quot;highlighter-rouge&quot;&gt;modprobe.blacklist=nouveau&lt;/code&gt;.
+In some system it may happen that &lt;code class=&quot;highlighter-rouge&quot;&gt;lspci&lt;/code&gt; command freezes the system while installing. Above step can &lt;a href=&quot;https://superuser.com/a/1301487&quot;&gt;resolve&lt;/a&gt; it.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h6 id=&quot;4-partitioning-disk-and-other-stuffs-to-know&quot;&gt;4. Partitioning Disk and Other stuffs to know.&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;
+* &lt;strong&gt;Partition the disk&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This is where you have to be cautious. If you have multiple partitions (not the recovery ones), you can either use one of them or create a new partition from an existing partition. Your existing data will be safe if you have enough free space. Typically, you install Linux in under 15 GB(root), however, if disk space if not a concern, I advise using 30-40GB at least. For home, keep 40-50GB(/home), and for &lt;a href=&quot;https://www.linux.com/news/all-about-linux-swap-space&quot;&gt;swap&lt;/a&gt;, keep it approximately to the RAM size. This way you can have more space at your disposal for downloading and keeping various files.&lt;/p&gt;
+
+&lt;p&gt;If you are on Linux, you can use &lt;a href=&quot;https://www.tecmint.com/parted-command-to-create-resize-rescue-linux-disk-partitions/&quot;&gt;parted&lt;/a&gt; to partition the disk.&lt;/p&gt;
+
+&lt;p&gt;On Windows, follow &lt;a href=&quot;https://www.wikihow.com/Partition-Your-Hard-Drive-in-Windows-7&quot;&gt;this&lt;/a&gt;, to partition the disk.&lt;/p&gt;
+
+&lt;p&gt;* &lt;strong&gt;Command Line&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;All commands will look like this:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;root@archiso ~ # &amp;lt;command_you_type&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;* &lt;strong&gt;Verify the boot mode&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If UEFI mode is enabled on an UEFI motherboard, Archiso will boot Arch Linux accordingly via systemd-boot. To verify this, list the efivars directory:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# ls /sys/firmware/efi/efivars
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;* &lt;strong&gt;Connect to the Internet&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;For wireless connections, use:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# wifi-menu
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;to connect to available networks. You can check connection using&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# ping 8.8.8.8
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;* &lt;strong&gt;Format the Partition&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;To list the partitions.&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# lsblk -o name,size,type,mountpoint,fstype
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Now, let your main harddisk is /dev/sdx(or it can be anything).&lt;/p&gt;
+
+&lt;p&gt;Now find the partitions you created. They will probably be the ones with the highest index (it’s still your job to verify that).&lt;/p&gt;
+
+&lt;p&gt;To format the main root partition (let it be /dev/sdxr) (the 50-100 gb one), use:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# mkfs.ext4 /dev/sdxr
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;where &lt;code class=&quot;highlighter-rouge&quot;&gt;r&lt;/code&gt; is the root partition in the output of &lt;code class=&quot;highlighter-rouge&quot;&gt;lsblk&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Similarly for home and swap.&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# mkfs.ext4 /dev/sdxh
+# mkfs.ext4 /dev/sdxs
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;where &lt;code class=&quot;highlighter-rouge&quot;&gt;h&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;s&lt;/code&gt; is the home and swap partition in the output of &lt;code class=&quot;highlighter-rouge&quot;&gt;lsblk&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;* &lt;strong&gt;Mount the file systems&lt;/strong&gt;
+&lt;br /&gt;
+Mount the root partition to &lt;code class=&quot;highlighter-rouge&quot;&gt;/mnt&lt;/code&gt;, for example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# mount /dev/sdxr /mnt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Find out if your computer uses UEFI or not. The best way is to verify whether you have a &lt;code class=&quot;highlighter-rouge&quot;&gt;vfat&lt;/code&gt; partition (in most cases /dev/sda1). If yes, then:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# mkdir /mnt/boot
+# mkdir /mnt/home
+# mount /dev/sdxh /mnt/home
+# mount /dev/sdxe /mnt/boot
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Here, &lt;code class=&quot;highlighter-rouge&quot;&gt;/dev/sdxe&lt;/code&gt; is the &lt;code class=&quot;highlighter-rouge&quot;&gt;vfat&lt;/code&gt; partition.&lt;/p&gt;
+
+&lt;p&gt;Mount the swap partition&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# mkswap /dev/sdxs
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;install-the-base-packages&quot;&gt;Install the base packages&lt;/h3&gt;
+
+&lt;p&gt;Use the pacstrap script to install the base package group and other useful stuff:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# pacstrap /mnt base dialog iw wpa_supplicant sudo
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;configure-the-system&quot;&gt;Configure the system&lt;/h3&gt;
+
+&lt;p&gt;* &lt;strong&gt;Fstab&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Generate an &lt;a href=&quot;https://en.wikipedia.org/wiki/Fstab&quot;&gt;fstab&lt;/a&gt; file:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# genfstab -U /mnt &amp;gt;&amp;gt; /mnt/etc/fstab
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;* &lt;strong&gt;Chroot&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Change root into the new system:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# arch-chroot /mnt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;* Time zone&lt;/p&gt;
+
+&lt;p&gt;Set the time zone (for example &lt;code class=&quot;highlighter-rouge&quot;&gt;Asia/Kolkata&lt;/code&gt; for India):&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# ln -s /usr/share/zoneinfo/Asia/Kolkata /etc/localtime
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Run &lt;code class=&quot;highlighter-rouge&quot;&gt;hwclock(8)&lt;/code&gt; to generate /etc/adjtime:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# hwclock --systohc --localtime
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;* &lt;strong&gt;Locale&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Open &lt;code class=&quot;highlighter-rouge&quot;&gt;/etc/locale.gen&lt;/code&gt; using nano:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# nano /etc/locale.gen
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Go to the line and remove the first &lt;code class=&quot;highlighter-rouge&quot;&gt;#&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#en_US.UTF-8 UTF-8
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Generate localisations with (execute):&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# locale-gen
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Open &lt;code class=&quot;highlighter-rouge&quot;&gt;/etc/locale.conf&lt;/code&gt; using nano and add the following line:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;LANG=en_US.UTF-8
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;* &lt;strong&gt;Hostname&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Create the &lt;code class=&quot;highlighter-rouge&quot;&gt;/etc/hostname&lt;/code&gt; file. A hostname is a name for your pc (You can set that to anything consisting of only letters):&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;myhostname
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;You will need to add a matching entry to &lt;code class=&quot;highlighter-rouge&quot;&gt;/etc/hosts&lt;/code&gt; (the last line):&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;127.0.0.1       localhost.localdomain   localhost
+::1             localhost.localdomain   localhost
+127.0.1.1       myhostname.localdomain  myhostname
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;* &lt;strong&gt;Root password&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Set the root password:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# passwd
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;* &lt;strong&gt;Boot loader&lt;/strong&gt;
+If you have an Intel CPU, install the intel-ucode package&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# pacman -S intel-ucode
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Now, you need to remember if you have a UEFI system or not.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;NO UEFI&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# pacman -S grub os-prober ntfs-3g
+# grub-install --target=i386-pc /dev/sdx
+# grub-mkconfig -o /boot/grub/grub.cfg
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Please replace &lt;code class=&quot;highlighter-rouge&quot;&gt;x&lt;/code&gt; with the character of your harddisk.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;UEFI&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# pacman -S grub os-prober efibootmgr ntfs-3g
+# grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=grub
+# grub-mkconfig -o /boot/grub/grub.cfg
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;The above steps may sometimes &lt;strong&gt;fail&lt;/strong&gt; to recognize Windows. Just run the last command again(after reboot) to resolve it.&lt;/p&gt;
+
+&lt;p&gt;* &lt;strong&gt;New User&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Now, its time to create a new user:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# useradd -m -G wheel -s /bin/bash &amp;lt;username&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;To change the user’s password:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# passwd &amp;lt;username&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Now setup &lt;code class=&quot;highlighter-rouge&quot;&gt;sudo&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# visudo
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;This opens up the sudo configuration file in &lt;code class=&quot;highlighter-rouge&quot;&gt;vim&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;## Uncomment the below line to allow members of group wheel to execute any command
+# %wheel ALL=(ALL) ALL
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Now, carefully place your cursor on the &lt;code class=&quot;highlighter-rouge&quot;&gt;#&lt;/code&gt; just before &lt;code class=&quot;highlighter-rouge&quot;&gt;%wheel&lt;/code&gt; and press &lt;code class=&quot;highlighter-rouge&quot;&gt;x&lt;/code&gt;. This will remove the &lt;code class=&quot;highlighter-rouge&quot;&gt;#&lt;/code&gt;. It will now look like this:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;## Uncomment to allow members of group wheel to execute any command
+ %wheel ALL=(ALL) ALL
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Now type &lt;code class=&quot;highlighter-rouge&quot;&gt;:wq&lt;/code&gt; to save and exit.&lt;/p&gt;
+
+&lt;h3 id=&quot;reboot&quot;&gt;Reboot&lt;/h3&gt;
+
+&lt;p&gt;Exit the chroot environment by typing exit or pressing &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl+D&lt;/code&gt;.
+Optionally, unmount all the partitions with:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# umount -R /mnt:
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Finally, restart the machine:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# reboot
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Now while booting choose grub as the default boot option.&lt;/p&gt;
+
+&lt;p&gt;After booting, you will encounter a black screen with option to login. You can now log in with your user.&lt;/p&gt;
+
+&lt;h3 id=&quot;post-installation&quot;&gt;Post-installation&lt;/h3&gt;
+
+&lt;p&gt;See &lt;a href=&quot;https://wiki.archlinux.org/index.php/General_recommendations&quot;&gt;General Recommendations&lt;/a&gt; for system management directions and post-installation tutorials (like setting up a graphical user interface, sound or a touchpad).&lt;/p&gt;
+
+&lt;p&gt;For a list of applications that may be of interest, see &lt;a href=&quot;https://wiki.archlinux.org/index.php/List_of_applications&quot;&gt;List of applications&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Congratulations, you have installed the ARCH LINUX, &lt;em&gt;oohh wheeee&lt;/em&gt;!&lt;/p&gt;
+
+&lt;p&gt;Thank you guys for reading this article, I’ll hope you enjoy it.&lt;/p&gt;</content><author><name></name></author><summary type="html">In this article you'll learn how to install Arch Linux...</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://home.iitk.ac.in/~singhshu/assets/img/how-install-git-fedora-26.png" /></entry></feed>
