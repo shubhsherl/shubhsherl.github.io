@@ -1,0 +1,18 @@
+<header id="site-header" role="banner">
+  <div id="nav">
+    <a class="site-title" href="{{ "/" | relative_url}}">{{ site.title | escape }}</a>
+    <ul>
+      <li class="articles">
+        <a title="Articles" href="/articles">Articles</a>
+      </li>
+      <li class="infos">
+        <a title="Infos" href="/about">Info</a>
+      </li>
+      <li class="search">
+        <form action="/search.html" method="get">
+        <input type="text" placeholder="Search" id="search-box" name="query">
+        </form>
+      </li>
+    </ul>
+  </div>
+</header>

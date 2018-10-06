@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  {% include post_header.html %}
+  <div class="centered" itemprop="articleBody">
+    <div class="post_content">
+      <div class="reading">
+        <span class="reading-time">
+          {% assign words = content | number_of_words %}
+          {% if words < 360 %}
+            1 minute
+          {% else %}
+          {{ words | divided_by:180 }} minutes
+          {% endif %}
+          read
+        </span>
+      </div>
+      {{ content }}
+      {% include share_page.html %}
+      {% include previous_next_navigation.html %}
+      {% include disqus-comment.html %}
+
+    </div>
+  </div>
+</article>

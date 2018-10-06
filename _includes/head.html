@@ -1,0 +1,66 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  {% if page.url == "/404.html" %}
+      <meta http-equiv="refresh" content="5; url=/">
+  {% endif %}
+
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  <link rel="shortcut icon" href="/assets/img/favicon.png?" type="image/png" />
+  <!--Open Graph Protocol Facebook-->
+  <meta property="og:locale" content="en_US">
+  {% if page.title %}
+    <meta property="og:type" content="article">
+  {% else %}
+    <meta property="og:type" content="website">
+  {% endif %}
+  {% if page.image %}
+    <meta property=“og:image” content="{{ site.url }}{{ page.image }}">
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="512" />
+  {% else %}
+    <meta property=“og:image” content="{{ site.url }}/assets/img/logo120.png">
+    <meta property="og:image:width" content="120" />
+    <meta property="og:image:height" content="120" />
+  {% endif %}
+  <meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:site_name" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="article:publisher" content="http://www.facebook.com/{{ site.facebook_username }}" />
+  {% if page.date %}
+    <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
+    <meta content="{{ site.url }}{{ site.i[page.lang]about }}" property="article:author">
+  {% endif %}
+  {% if page.description %}
+    <meta property="og:description" content="{{ page.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  {% else %}
+    <meta property="og:description" content="{{ site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  {% endif %}
+  <!--Twitter Cards-->
+  {% if page.image %}
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:image:src" content="{{ site.url }}{{ page.image }}">
+  {% else %}
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:image:src" content="{{ site.url }}/assets/img/logo120.png">
+  {% endif %}
+  <meta name="twitter:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta name="twitter:description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  <meta name="twitter:site" content="@Di_Will" />
+  <meta name="twitter:creator" content="@Di_Will">
+
+  <link rel="canonical" href="{{ page.url | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
+  <style type="text/css">
+    {{ page.style }}
+    {% include main.css %}
+  </style>
+
+  {% if jekyll.environment == 'production' %}
+      {% include google-analytics.html %}
+  {% endif %}
+  {% seo %}
+</head>

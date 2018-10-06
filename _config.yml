@@ -1,0 +1,26 @@
+# Welcome to Jekyll!
+title: shubhsherl
+email: dhoni.singh094@gmail.com
+iitk_email: singhshu@iitk.ac.in
+description: I'm a sophomore at IIT Kanpur.
+logo: /assets/img/default-logo.png
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://home.iitk.ac.in/~singhshu" # the base hostname & protocol for your site, e.g. http://example.com
+#twitter_username: 
+github_username:  shubhsherl
+fb_link: https://www.facebook.com/profile.php?id=100003304464187
+
+permalink: /:title
+
+# Build settings
+markdown: kramdown
+
+gems:
+  - jekyll-feed
+  - jekyll-seo-tag
+  #- jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock

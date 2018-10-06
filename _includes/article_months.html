@@ -1,0 +1,21 @@
+<div class="centered">
+  {% assign posts=site.posts %}
+  {% for post in posts %}
+      {% assign cDate = post.date | date: "%B, %Y" %}
+      {% capture currentDate %}
+      {{ cDate }}
+      {% endcapture %}
+
+      {% if currentDate != myDate %}
+          {% unless forloop.first %}</ul>{% endunless %}
+          <h1>{{ currentDate }}</h1>
+          <ul>
+          {% assign myDate = currentDate %}
+      {% endif %}
+
+      {% include article_post.html %}
+
+      {% if forloop.last %}</ul>{% endif %}
+
+  {% endfor %}
+</div>
