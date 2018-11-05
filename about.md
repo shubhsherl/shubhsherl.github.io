@@ -27,7 +27,7 @@ Why you want to contact me, I am  no use to you!!
 Still you want to chat, give and receive advice/tips and so forth?  
 
 [singhshu@iitk.ac.in](mailto:{{ site.iitk_mail }})  
-[dhoni.singh094@gmail.com :P](mailto:{{ site.email }})
+[dhoni.singh094@gmail.com :P](mailto:{{ site.email }})  
 [shubham.singh094@yahoo.com](mailto:{{ site.ymail }})    
 [Github: shubhsherl](https://github.com/{{ site.github_username }})  
 [thefacebook]({ site.fb_link})  
