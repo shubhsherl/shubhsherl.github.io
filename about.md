@@ -26,14 +26,15 @@ In general, to left my footprint on this virtual world, and to bore you all.
 Why you want to contact me, I am  no use to you!!
 Still you want to chat, give and receive advice/tips and so forth?  
 
-[singhshu@iitk.ac.in](mailto:{{ site.email }})  
-[dhoni.singh094@gmail.com :P](mailto:{{ site.email }})  
+[singhshu@iitk.ac.in](mailto:{{ site.iitk_mail }})  
+[dhoni.singh094@gmail.com :P](mailto:{{ site.email }})
+[shubham.singh094@yahoo.com](mailto:{{ site.ymail }})    
 [Github: shubhsherl](https://github.com/{{ site.github_username }})  
 [thefacebook]({ site.fb_link})  
 
 ### What inspires me.
-[Matthew 25:14 ~ 30](https://www.biblegateway.com/passage/?search=Matthew+25:14-30)  
-We are unhappy because we neglect and buried our talents
+[Believe you can change](http://www.aaronsw.com/weblog/dweck)  
+Fixies try to blame the world when things go bad, growthers look to see what they can change about themselves. Fixies are afraid to try hard — because if they fail, it means they’re a failure. Growthers are afraid of not trying.
 
 #### One more thing
 You noticed that I'm not an **"English native"** not even an **"Expert"**, but I'm writing in English because I want to get better and reach to the fluency. I'll appreciate if you help me spend your precious time send me your suggestion and correction about my sentences. ;)
