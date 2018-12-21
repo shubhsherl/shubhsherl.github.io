@@ -7,7 +7,7 @@ description: I'm a sophomore at IIT Kanpur.
 logo: /assets/img/default-logo.png
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://home.iitk.ac.in/~singhshu" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://shubhsherl.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: 
 github_username:  shubhsherl
 fb_link: https://www.facebook.com/profile.php?id=100003304464187
