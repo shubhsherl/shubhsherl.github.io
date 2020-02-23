@@ -9,7 +9,7 @@ style: |
 ---
 ### Hi, I'm **Shubham**, the guy behind and front of this site!  
 
-I'm a sophomore at IIT Kanpur, who believe in technology and playing around with stuffs. I hail from Allahabad(U.P.), India. After years of slogging and hardwork, I finally managed to gain admission to the Indian Institute of Technology, Kanpur as an Undergratuate in Mathematics ~~and Scientific Computing~~. 
+I'm a junior undergrad at IIT Kanpur, who believe in technology and playing around with stuffs. I hail from Allahabad(U.P.), India. After years of slogging and hardwork, I finally managed to gain admission to the Indian Institute of Technology, Kanpur as an Undergratuate in Mathematics ~~and Scientific Computing~~. 
 
 I am passionate about computer science, building things and celebrating the joy of programming.
 I tend to waste my time reading books, watching movies, TV-series, playing games, hanging out with friends, sleeping and prcrstintng (...).
