@@ -20,7 +20,7 @@ Your proposal Rocket.chat Articles has been accepted!
 Welcome to GSoC 2019!
 ```
 This is not a success story. It is a story where I learnt from my mistakes and kept trying to achieve one of my college goals. 
-https://summerofcode.withgoogle.com/projects/#5479664997367808
+https://summerofcode.withgoogle.com/archive/2019/projects/5979511483531264/
 
 #### Backstory
 I came to know about GSoC in my first year, when I was doing a workshop, by [@yashsriv](https://yashsriv.org/about). He was one of the _backchod_(a lingo for an extraordinary person) programmer in our college. He guided us on how to approach the Open Source Organisations. He told us to go through the org list and mail the org that you are interested in contributing their org...so guide me.
