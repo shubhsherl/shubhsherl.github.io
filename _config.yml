@@ -17,7 +17,7 @@ permalink: /:title
 # Build settings
 markdown: kramdown
 
-gems:
+plugins:
   - jekyll-feed
   - jekyll-seo-tag
   #- jekyll-sitemap
